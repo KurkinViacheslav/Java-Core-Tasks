@@ -9,5 +9,11 @@ public class Main {
 
         int leapYears = SecondTask.secondTask(1655);
         System.out.println("Numbers of leap years: " + leapYears);
+
+        int changedNumber = ThirdTask.thirdTask(34, 5);
+        System.out.println("The changed number is " + changedNumber);
+
+        char shiftedChar = FourthTask.fourthTask('\\', 29);
+        System.out.println("Shifted char is " + shiftedChar);
     }
 }
