@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        boolean answer = FirstTask.firstTask(true, false, false, true);
+        boolean answer = FirstTask.firstTask(true, false, true, true);
         System.out.println("The answer is " + answer);
 
         int leapYears = SecondTask.secondTask(1655);
@@ -15,5 +15,8 @@ public class Main {
 
         char shiftedChar = FourthTask.fourthTask('\\', 29);
         System.out.println("Shifted char is " + shiftedChar);
+
+        boolean answ = FifthTask.fifthTask(127);
+        System.out.println("The number is the degree of 2?    " + answ);
     }
 }
